@@ -1,1 +1,1 @@
-((butyrylCoA_5:0.00133,(butyrylCoA_6:0.00096,(butyrylCoA_7:0.00064,butyrylCoA_2:0.00064):0.00032):0.00037):0.00082,(butyrylCoA_3:0.00106,(butyrylCoA_4:0.00000,butyrylCoA_1:0.00000):0.00106):0.00109):0.00000;
+(('Faecalibacterium sp.':0.00133,('Faecalibacterium prausnitzii_5':0.00096,('Faecalibacterium prausnitzii_6':0.00064,Faecalibacterium_1:0.00064):0.00032):0.00037):0.00082,('Faecalibacterium prausnitzii':0.00106,('Faecalibacterium prausnitzii M21/2':0.00000,Faecalibacterium:0.00000):0.00106):0.00109):0.00000;
