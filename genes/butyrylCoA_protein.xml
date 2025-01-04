@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3604387</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>448</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3604387</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>448</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|G2SYC0.1|</Hit_id>
+  <Hit_def>RecName: Full=Butyryl-CoA:acetate CoA-transferase; Short=Butyryl-CoA CoA-transferase [Roseburia hominis A2-183]</Hit_def>
+  <Hit_accession>G2SYC0</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.738</Hsp_bit-score>
+      <Hsp_score>1802</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>MDCKELYAQKLMTAAQAAALVKSGDWVDYGWAVNTPVAVDAELAKRLPELEGVNFRGGILMWVPEIFQIDDPAAHMTWNSWHMGGIERKAIAQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVSQVSGIVEGANPPIGQMAAAGAATEVDLKVANLIVPQIPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMYDYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESAGVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALISVAHPDFREELIREAEKLHIWRRSNK</Hsp_qseq>
+      <Hsp_hseq>MDFREEYKQKLVSADEAVKLIKSGDWVDYGWCTNTVDALDQALAKRTDELTDVKLRGGILMKPLAVFAREDAGEHFCWNSWHMSGIERKMINRGVAYYCPIRYSELPRYYRELDCPDDVAMFQVAPMDAHGYFNFGPSASHLGAMCERAKHIIVEVNENMPRCLGGTECGIHISDVTYIVEGSNPPIGELGAGGPATDVDKAVAKLIVDEIPNGACLQLGIGGMPNAVGSLIAESDLKDLGVHTEMYVDAFVDIAKAGKINGSKKNIDRYRQTYAFGAGTKKMYDYLDDNPELMSAPVDYTNDIRSISALDNFISINNAVDIDLYGQVNAESAGIKQISGAGGQLDFVLGAYLSKGGKSFICLSST-FKTKDGQVQSRIRPTLANGSIVTDARPNTHYVVTEYGKVNLKGLSTWQRAEALISIAHPDFRDDLIKEAEQMHIWRRSNR</Hsp_hseq>
+      <Hsp_midline>MD +E Y QKL++A +A  L+KSGDWVDYGW  NT  A+D  LAKR  EL  V  RGGILM    +F  +D   H  WNSWHM GIERK I +G ++Y PIRYSELPRYYRE + P DVA+FQV PMD HGYFNFGPSASHLGA+CE+AK IIVEVN NMPRCLGG E  +H+S V+ IVEG+NPPIG++ A G AT+VD  VA LIV +IPNGACLQLGIGGMPNA+G LIA+SDLKDLGVHTEMYVDAFVDIAKAGKINGS+K +D+ RQ YAFGAGT+KMYDYL+DNPE MSAPVDYTNDIRSISALDNFISINNAVDIDL+GQVNAESAG+K ISGAGGQLDFVLGAYLSKGGKSFICLSST F  K GQ++SRIRPTL NGSIVTD R N HY+ TEYG VNLKGL++W++AEALIS+AHPDFR++LI+EAE++HIWRRSN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|B0MC58.1|</Hit_id>
+  <Hit_def>RecName: Full=Butyryl-CoA:acetate CoA-transferase; AltName: Full=Butyryl-CoA CoA-transferase [Anaerostipes caccae L1-92]</Hit_def>
+  <Hit_accession>B0MC58</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>686.797</Hsp_bit-score>
+      <Hsp_score>1771</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>MDCKELYAQKLMTAAQAAALVKSGDWVDYGWAVNTPVAVDAELAKRLPELEGVNFRGGILMWVPEIFQIDDPAAHMTWNSWHMGGIERKAIAQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVSQVSGIVEGANPPIGQMAAAGAATEVDLKVANLIVPQIPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMYDYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESAGVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALISVAHPDFREELIREAEKLHIWRRSNK</Hsp_qseq>
+      <Hsp_hseq>MSFKEEYQKKLKTADEAVKVVKSGDWLEYGWCVTTPAALDKALAKRMPELENINIRGGIVMWPLEITKIDSPADHFTWNSWHMGGLERKWIKEGFSYYAPIRYSELPGYYRNYIDHVDVAMMQVAPMDEHGFFNFGPSASHLAAMLEKADCVIVEVNENMPRCLGGFEEGVHISKVDMIVEGENPAIAELGGGGAATDVDKAVAKLIVDQIPNGACLQLGIGGMPNAVGSMIAESDLKDLGVHTEMYVDAFVDIAKAGKITGARKNIDRYRQTYAFAAGTKKLYDYLNDNPECMSAPVNYTNDIARVSSIDNFISINNAVDVDLYGQISAESSGIKQISGAGGQLDFVMGAYLSNGGKSFVCLSSTFTD-KAGQMHSRILPTLHNGSIVTDTRANAHYIVTEYGMANMKGLSAWQRAEALINIAHPDFRDQLIKDAEKAQIWRRSNK</Hsp_hseq>
+      <Hsp_midline>M  KE Y +KL TA +A  +VKSGDW++YGW V TP A+D  LAKR+PELE +N RGGI+MW  EI +ID PA H TWNSWHMGG+ERK I +GFS+Y+PIRYSELP YYR   D VDVA+ QV PMDEHG+FNFGPSASHL A+ EKA  +IVEVN NMPRCLGG E  VH+S+V  IVEG NP I ++   GAAT+VD  VA LIV QIPNGACLQLGIGGMPNA+G +IA+SDLKDLGVHTEMYVDAFVDIAKAGKI G+RK +D+ RQ YAF AGT+K+YDYLNDNPECMSAPV+YTNDI  +S++DNFISINNAVD+DL+GQ++AES+G+K ISGAGGQLDFV+GAYLS GGKSF+CLSSTF + K GQ+ SRI PTL NGSIVTDTRAN HY+ TEYG  N+KGL++W++AEALI++AHPDFR++LI++AEK  IWRRSNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q0AVM5.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable butyrate:acetyl-CoA coenzyme A-transferase; Short=Butyrate CoA-transferase [Syntrophomonas wolfei subsp. wolfei str. Goettingen G311]</Hit_def>
+  <Hit_accession>Q0AVM5</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>2.47933e-164</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>ELYAQKLMTAAQAAALVKSGDWVDYGWAVNTPVAVDAELAKRLPELEGVNFRGGILMWVPEIFQIDDPAAHMTWNSWHMGGIERKAIAQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVSQVSGIVEGANPPIGQMAAAGAATEVDLKVANLIVPQIPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMYDYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESAGVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALISVAHPDFREELIREAEKLHIWRRSNKI</Hsp_qseq>
+      <Hsp_hseq>EEYKSKLVTADEAAKQVKSGDWVEYGFGINCARDFDEALAKRKDELEDVKIRCDIGAYQHFTAEVDPDNKHFTWNSWHVAGHDRKFINKNL-FYIPMKFHENPMMTRKDCVPTNVAVIQCTAMDKHGYFNFGGSSVNCCAMMETARVTILEVNEKMPRCLGGNQECLHISQVDYIIQSKNEPIATIGSA-EPSPVEIAMAQHIIERLYDGNCIQLGIGGTPNAVGSMVAASDLKDLGVHTEMYVDAYLLMAKAGKITGARKSIDKYKQVYSFAMGSQELYDYIDDNPGLASYSVDYTNNPWVVAQIDDFVSINACIEVDLYGQVCAESVGTRHISGTGGQLDFVEGAYKSKNGQSFICLPSTIEIK--GEVTSRIKPILTPGAIVTDPRTATHMMVTEFGIATLKGRSTWERAEELIKIAHPDFQDELVKEAQKMNIWRKSNKI</Hsp_hseq>
+      <Hsp_midline>E Y  KL+TA +AA  VKSGDWV+YG+ +N     D  LAKR  ELE V  R  I  +     ++D    H TWNSWH+ G +RK I +   FY P+++ E P   R+   P +VAV Q T MD+HGYFNFG S+ +  A+ E A+  I+EVN  MPRCLGG + C+H+SQV  I++  N PI  + +A   + V++ +A  I+ ++ +G C+QLGIGG PNA+G ++A SDLKDLGVHTEMYVDA++ +AKAGKI G+RK +DK +QVY+F  G+Q++YDY++DNP   S  VDYTN+   ++ +D+F+SIN  +++DL+GQV AES G +HISG GGQLDFV GAY SK G+SFICL ST   K  G++ SRI+P L  G+IVTD R   H + TE+G   LKG ++WE+AE LI +AHPDF++EL++EA+K++IWR+SNKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P38942.3|</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxybutyrate coenzyme A transferase [Clostridium kluyveri DSM 555]</Hit_def>
+  <Hit_accession>P38942</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.3562e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>MDCKELYAQKLMTAAQAAALVKSGDWVDYGWAVNTPVAVDAELAKRLPELEGVNFRGGILMWVPEIFQIDDPAAHMTWNSWHMGGIERKAIAQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVSQVSGIVEGANPPIG-QMAAAGAATEVDLKVANLIVPQIPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMYDYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESAGVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALISVAHPDFREELIREAEK</Hsp_qseq>
+      <Hsp_hseq>MEWEEIYKEKLVTAEKAVSKIENHSRVVFAHAVGEPVDLVNALVKNKDNYIGLEIVHMVAMGKGE-YTKEGMQRHFRHNALFVGGCTRDAVNSGRADYTPCFFYEVPSLFKEKRLPVDVALIQVSEPDKYGYCSFGVSNDYTKPAAESAKLVIAEVNKNMPRTLG--DSFIHVSDIDYIVEASHPLLELQPPKLG---DVEKAIGENCASLIEDGATLQLGIGAIPDAV--LLFLKNKKNLGIHSEMISDGVMELVKAGVINNKKKTLHPGKIVVTFLMGTKKLYDFVNNNPMVETYSVDYVNNPLVIMKNDNMVSINSCVQVDLMGQVCSESIGLKQISGVGGQVDFIRGANLSKGGKAIIAIPSTAGKGKV----SRITPLLDTGAAVTTSRNEVDYVVTEYGVAHLKGKTLRNRARALINIAHPKFRESLMNEFKK</Hsp_hseq>
+      <Hsp_midline>M+ +E+Y +KL+TA +A + +++   V +  AV  PV +   L K      G+     + M   E +  +    H   N+  +GG  R A+  G + Y+P  + E+P  ++E   PVDVA+ QV+  D++GY +FG S  +     E AK +I EVN NMPR LG  ++ +HVS +  IVE ++P +  Q    G   +V+  +       I +GA LQLGIG +P+A+  L+   + K+LG+H+EM  D  +++ KAG IN  +K L  G+ V  F  GT+K+YD++N+NP   +  VDY N+   I   DN +SIN+ V +DL GQV +ES G+K ISG GGQ+DF+ GA LSKGGK+ I + ST    K     SRI P L+ G+ VT +R  V Y+ TEYG  +LKG T   +A ALI++AHP FRE L+ E +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|C6EUD4.1|</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA:acetate/propanoyl-CoA:succinate CoA transferase; AltName: Full=Acetate:succinate CoA-transferase; Short=ASCT; AltName: Full=Propionate:succinate CoA-transferase; Short=PSCT; AltName: Full=Short-chain acyl-CoA-transferase; Flags: Precursor [Fasciola hepatica]</Hit_def>
+  <Hit_accession>C6EUD4</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>1.19192e-66</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>FQIDDPAAHMTWNSWHMGGIERKAIAQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVSQVSGIVEGANPPIGQMAAAGAATEVDLKVANLIVPQ-IPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMYDYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESAGVKHISGAGGQLDFVLGAYLSKGG--KSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALISVAHPDFREELIREA</Hsp_qseq>
+      <Hsp_hseq>YPFNDAEGHFRSTSLFTGGNCRKAIQEGRADYTPIFLSEIPLLFRRKHVQLDLALINVTPPDKHGFCSLGPSVDVTRAAIQNATHIVAQVNDQLPLTRG--DASIHFSNLTVMRAGSQP--CHEMSPRPASEVEDKIGQIIAENLVEDGATLQTGIGAIPDAV--LSKLTNHKNLGVHTEMFSDGVVQLVQLGAITNAYKKLRPGKVVSSFVVGTRKVFDFLDNNPMVDMCDVAWVNSPVVIAQNPKPVAINSCIEIDITGQVSSDSIGTTIYSGFGGQVDFLRGAAVSLDGQGKPIIAVPSV-----TKRNETKIVPHLKLGGGVVTTRAHVHYVVTEYGIAYLFGKNLRQRAHALIQIAHPDHRESLEKAA</Hsp_hseq>
+      <Hsp_midline>+  +D   H    S   GG  RKAI +G + Y+PI  SE+P  +R  +  +D+A+  VTP D+HG+ + GPS     A  + A  I+ +VN  +P   G  +  +H S ++ +  G+ P      +   A+EV+ K+  +I    + +GA LQ GIG +P+A+  L   ++ K+LGVHTEM+ D  V + + G I  + K+L  G+ V +F  GT+K++D+L++NP      V + N    I+     ++IN+ ++ID+ GQV+++S G    SG GGQ+DF+ GA +S  G  K  I + S      T + E++I P L+ G  V  TRA+VHY+ TEYG   L G    ++A ALI +AHPD RE L + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P38946.1|</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA:acetate CoA-transferase; AltName: Full=Succinyl-CoA:CoA transferase [Clostridium kluyveri DSM 555]</Hit_def>
+  <Hit_accession>P38946</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>3.79995e-17</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>RKAIAQGFSFYSPIRYSELPRYYRESNDP-VDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVS---------------------------QVSGIV----EGANPPIGQMAAAGAATEVDL------KVANLIVPQIPNGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGK---INGSRKQLDKGRQVYAFGAGTQKMYDYLND----NPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNAESA-GVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALI-SVAHPDFREELIR</Hsp_qseq>
+      <Hsp_hseq>RKKINDGSIKYADMHLSHMAQYINYSVIPKVDIAIIEAVAITEEGDIIPSTGIGNTATFVENADKVIVEINEAQPLELEGMADIYTLKNPPRREPIPIVNAGNRIGTTYVTCGSEKICAIVMTNTQDKTRPLTEVSPVSQAISDNLIGFLNKEVEEGKLPK--NLLPIQSGVGSVANAVLAGLCESNFKNLSCYTEVIQDSMLKLIKCGKADVVSGT-----------SISPSPEMLPEFIKDINFFREKIVLRPQEISNN-PEIARRIGVISINTALEVDIYGNVNSTHVMGSKMMNGIGGSGDFARNAYLT--------IFTTESIAKKGDISS-IVPMV---SHVDHTEHDVMVIVTEQGVADLRGLSPREKAVAIIENCVHPDYKDMLME</Hsp_hseq>
+      <Hsp_midline>RK I  G   Y+ +  S + +Y   S  P VD+A+ +   + E G         +     E A K+IVE+N   P  L GM +   +                            ++  IV    +    P+ +++    A   +L      +V    +P+  N   +Q G+G + NA+   + +S+ K+L  +TE+  D+ + + K GK   ++G+           +     + + +++ D      + +  P + +N+   I+     ISIN A+++D++G VN+    G K ++G GG  DF   AYL+        + +T    K G + S I P +   S V  T  +V  + TE G  +L+GL+  EKA A+I +  HPD+++ L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q54K91.1|</Hit_id>
+  <Hit_def>RecName: Full=Acetyl-CoA hydrolase; AltName: Full=Acetyl-CoA deacylase; Short=Acetyl-CoA acylase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54K91</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.85936e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>SNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNTNMPRCLGGMENCVHVS---------------------------QVSGIVEGANP-------PIGQMAAAGAATEVDLKVANLIVPQIP-NGACLQLGIGGMPNAIGGLIAQSDLKDLGVHTEMYVDAFVDIAKAGKINGSRKQLDKGRQVYAFGAGTQKMY-DYLNDNPECMSAPVDYTNDIRSISALDNFISINNAVDIDLFGQVNA-ESAGVKHISGAGGQLDFVLGAYLSKGGKSFICLSSTFFNKKTGQLESRIRPTLENGSIVTDTRANVHYLCTEYGCVNLKGLTSWEKAEALI-SVAHPDFREELIREAE</Hsp_qseq>
+      <Hsp_hseq>SKRTMDIAIVEATEITEDGCIVPGASVGITPEILQMADKIIIEINTSLP-SFKGLHDMVKIALPPFSKPYQITRVDDRIGLEAFPVDPEKIIAIVESQLPDNTSVGAPEDETSSAIANNIVQFFIHEIEQGRFPKNLLPLQSGIGSIANAVIGGLSKGPFDNLSVWTEVIQDTFLDFFDNGKL-----KFASATSLRFSPPGFNRLFNNWENYKSKIILRNQAISNAAELISRV-GCIALNTPCEVDIYGHVNSTNTMGSKMLNGLGGS-----GEFLRNSRISIVHTPSTRPTKTDPHGISCIVPF---ASHIDHTEHDIDIIVTEQGLADIRGLAPYERAKVIIQNCAHPIYKPILMEYLE</Hsp_hseq>
+      <Hsp_midline>S   +D+A+ + T + E G    G S      + + A KII+E+NT++P    G+ + V ++                           ++  IVE   P       P  + ++A A   V   +  +   + P N   LQ GIG + NA+ G +++    +L V TE+  D F+D    GK+     +      +     G  +++ ++ N   + +      +N    IS +   I++N   ++D++G VN+  + G K ++G GG      G +L     S +   ST   K      S I P     S +  T  ++  + TE G  +++GL  +E+A+ +I + AHP ++  L+   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q9AR19.1|</Hit_id>
+  <Hit_def>RecName: Full=Histone acetyltransferase GCN5; Short=AtGCN5; AltName: Full=BIG TOP protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9AR19</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>9.18431</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RLPELEGVNFRGGILMWVPE-----IFQIDDPAAHMTWNSWHMGGIERKAI------AQGFSFYSPIRYSELPRYYRESNDPVDVAVFQVTPMDEHGYFNFGPSASHLGAVCEKAKKIIVEVNT-NMP-----RCLGGMENCVHVSQVSGIVEGA</Hsp_qseq>
+      <Hsp_hseq>KVEEIRGLREAG----WTPDQWGHTRFKLFNGSADMVTNQKQLNALMRALLKTMQDHADAWPFKEPVDSRDVPDYYDIIKDPIDLKVIAKRVESEQYYVT-------LDMFVADARRMFNNCRTYNSPDTIYYKCATRLETHFHSKVQAGLQSGA</Hsp_hseq>
+      <Hsp_midline>++ E+ G+   G    W P+      F++ + +A M  N   +  + R  +      A  + F  P+   ++P YY    DP+D+ V       E  Y         L      A+++     T N P     +C   +E   H    +G+  GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>484204</Statistics_db-num>
+      <Statistics_db-len>184279893</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
