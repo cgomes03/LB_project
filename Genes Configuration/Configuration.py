@@ -9,12 +9,12 @@ def get_project_root():
     current = Path.cwd()
     
     # Check if we're already in the project root
-    if (current / 'data' / 'raw' / 'genes').exists() or (current / '1. Genes Configuration').exists():
+    if (current / 'data' / 'raw' / 'genes').exists() or (current / 'Genes Configuration').exists():
         return str(current)
         
     # Look for project root by checking for key directories
     while current != current.parent:
-        if (current / 'data' / 'raw' / 'genes').exists() or (current / '1. Genes Configuration').exists():
+        if (current / 'data' / 'raw' / 'genes').exists() or (current / 'Genes Configuration').exists():
             return str(current)
         current = current.parent
         
