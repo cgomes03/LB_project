@@ -1,0 +1,244 @@
+LOCUS       NZ_DS483503             1644 bp    DNA     linear   CON 10-APR-2024
+DEFINITION  Faecalibacterium prausnitzii M21/2 Scfld_02_24, whole genome shotgun
+            sequence.
+ACCESSION   NZ_DS483503
+VERSION     NZ_DS483503.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02299416
+            Assembly: GCF_000154385.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Faecalibacterium prausnitzii M21/2
+  ORGANISM  Faecalibacterium prausnitzii M21/2
+            Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+            Oscillospiraceae; Faecalibacterium.
+REFERENCE   1  (bases 1 to 1644)
+  AUTHORS   Sudarsanam,P., Ley,R., Guruge,J., Turnbaugh,P.J., Mahowald,M.,
+            Liep,D. and Gordon,J.
+  TITLE     Draft genome sequence of Faecalibacterium prausnitzii M21/2
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1644)
+  AUTHORS   Sudarsanam,P., Ley,R., Guruge,J., Turnbaugh,P.J., Mahowald,M.,
+            Liep,D. and Gordon,J.
+  TITLE     Draft genome sequence of Faecalibacterium prausnitzii M21/2
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1644)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Pepin,K.H.,
+            Johnson,M., Thiruvilangam,P., Bhonagiri,V., Nash,W.E., Mardis,E.R.
+            and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+REFERENCE   4  (bases 1 to 1644)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Pepin,K.H.,
+            Johnson,M., Thiruvilangam,P., Bhonagiri,V., Nash,W.E., Mardis,E.R.
+            and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+REFERENCE   5  (bases 1 to 1644)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Mardis,E.R. and
+            Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_000154385.1-RS_2024_04_10
+            Annotation Date                   :: 04/10/2024 16:06:07
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,027
+            CDSs (total)                      :: 2,940
+            Genes (coding)                    :: 2,896
+            CDSs (with protein)               :: 2,896
+            Genes (RNA)                       :: 87
+            rRNAs                             :: 5, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 5, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 66
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 44
+            CDSs (without protein)            :: 44
+            Pseudo Genes (ambiguous residues) :: 0 of 44
+            Pseudo Genes (frameshifted)       :: 10 of 44
+            Pseudo Genes (incomplete)         :: 35 of 44
+            Pseudo Genes (internal stop)      :: 5 of 44
+            Pseudo Genes (multiple problems)  :: 4 of 44
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            DS483503.1.
+            Faecalibacterium prausnitzii M21/2 (GenBank Accession Number for
+            16S rDNA gene: AY305307) is a member of the division Firmicutes. In
+            one comprehensive 16S rDNA sequence-based enumeration of the
+            colonic microbiota of three healthy adult humans, it represents, on
+            average, 3.804% of all 16S rDNA sequences and 7.490% of the
+            sequences in its division (Eckburg et. al. (2005)). The sequenced
+            strain was obtained from the laboratory of Prof. Harry Flint,
+            Rowett Research Institute, Aberdeen, Scotland, UK
+            (H.Flint@rowett.ac.uk).
+            We have collected 8.4X coverage in plasmid end reads and 454 reads.
+            We will be performing one round of automated sequence improvement
+            (pre-finishing).
+            Sequencing/Assembly: The genomic DNA was purified from liquid
+            culture derived from a single bacterial colony. A hybrid sequencing
+            strategy that utilized reads from both 454 GS-20 and ABI 3730xl
+            sequencers was devised and implemented to generate the draft genome
+            sequences. 454 reads were assembled using Newbler (454 Life
+            Sciences) into 454 de novo contigs. These de novo contigs were
+            converted in silico to 800 base paired reads ('superreads') with
+            400 base overlaps with neighboring superreads.  Finally, PCAP
+            (Huang, et al, Genome Research, 13:2164, (2003)) was used to
+            assemble the super-reads and the conventional 3730xl capillary
+            reads.
+            This sequenced strain is part of a comprehensive, sequence-based
+            survey of members of the normal human gut microbiota.  A joint
+            effort of the WU-GSC and the Center for Genome Sciences at
+            Washington University School of Medicine, the purpose of this
+            survey is to provide the general scientific community with a broad
+            view of the gene content of 100 representatives of the major
+            divisions represented in the intestine's microbial community. This
+            information should provide a frame of reference for analyzing
+            metagenomic studies of the human gut microbiome. Further details of
+            this effort are described in a white paper entitled 'ExtendingOur
+            View of Self: the Human Gut Microbiome Initiative (HGMI)'
+            (http://www.genome.gov/Pages/Research/Sequencing/SeqProposals/HGMIS
+            eq.pdf). These studies are supported by National Human Genome
+            Research Institute.
+            For answers to your questions regarding this assembly or project,
+            or any other GSC genome project, please visit our Genome Groups web
+            page (http://genome.wustl.edu/genome_group_index.cgi) and email the
+            designated contact person.
+            Faecalibacterium prausnitzii M21/2 (GenBank Accession Number for
+            16S rDNA gene: AY305307) is a member of the division Firmicutes. In
+            one comprehensive 16S rDNA sequence-based enumeration of the
+            colonic microbiota of three healthy adult humans, it represents, on
+            average, 3.804% of all 16S rDNA sequences and 7.490% of the
+            sequences in its division (Eckburg et. al. (2005)). The sequenced
+            strain was obtained from the laboratory of Prof. Harry Flint,
+            Rowett Research Institute, Aberdeen, Scotland, UK
+            (H.Flint@rowett.ac.uk).
+            We have collected 8.4X coverage in plasmid end reads and 454 reads.
+            We will be performing one round of automated sequence improvement
+            (pre-finishing).
+            Sequencing/Assembly: The genomic DNA was purified from liquid
+            culture derived from a single bacterial colony. A hybrid sequencing
+            strategy that utilized reads from both 454 GS-20 and ABI 3730xl
+            sequencers was devised and implemented to generate the draft genome
+            sequences. 454 reads were assembled using Newbler (454 Life
+            Sciences) into 454 de novo contigs. These de novo contigs were
+            converted in silico to 800 base paired reads ('superreads') with
+            400 base overlaps with neighboring superreads.  Finally, PCAP
+            (Huang, et al, Genome Research, 13:2164, (2003)) was used to
+            assemble the super-reads and the conventional 3730xl capillary
+            reads.
+            This sequenced strain is part of a comprehensive, sequence-based
+            survey of members of the normal human gut microbiota.  A joint
+            effort of the WU-GSC and the Center for Genome Sciences at
+            Washington University School of Medicine, the purpose of this
+            survey is to provide the general scientific community with a broad
+            view of the gene content of 100 representatives of the major
+            divisions represented in the intestine's microbial community. This
+            information should provide a frame of reference for analyzing
+            metagenomic studies of the human gut microbiome. Further details of
+            this effort are described in a white paper entitled 'ExtendingOur
+            View of Self: the Human Gut Microbiome Initiative (HGMI)'
+            (http://www.genome.gov/Pages/Research/Sequencing/SeqProposals/HGMIS
+            eq.pdf). These studies are supported by National Human Genome
+            Research Institute.
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. RNA genes were determined
+            using tRNAscan-SE 1.23 or Rfam v8.0. Gene names are generated at
+            the contig level and may not necessarily reflect any known order or
+            orientation between contigs.These studies are supported by National
+            Human Genome Research Institute.
+            For answers to your questions regarding this assembly or project,
+            or any other GSC genome project, please visit our Genome Groups web
+            page (http://genome.wustl.edu/genome_group_index.cgi) and email the
+            designated contact person.
+            Annotation was added to the contigs in October 2007, and the CDS
+            comments were updated in January 2008.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            Product names were updated in August 2012.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+FEATURES             Location/Qualifiers
+     source          1..1644
+                     /organism="Faecalibacterium prausnitzii M21/2"
+                     /mol_type="genomic DNA"
+                     /strain="M21/2"
+                     /isolation_source="biological product [ENVO:02000043]"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:411485"
+     gene            complement(1..1644)
+                     /gene="ptsP"
+                     /locus_tag="FAEPRAM212_RS10210"
+                     /old_locus_tag="FAEPRAM212_02497"
+                     /db_xref="GeneID:75068783"
+     CDS             complement(1..1644)
+                     /gene="ptsP"
+                     /locus_tag="FAEPRAM212_RS10210"
+                     /old_locus_tag="FAEPRAM212_02497"
+                     /EC_number="2.7.3.9"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015537632.1"
+                     /GO_function="GO:0008965 - phosphoenolpyruvate-protein
+                     phosphotransferase activity [Evidence IEA]"
+                     /GO_process="GO:0009401 - phosphoenolpyruvate-dependent
+                     sugar phosphotransferase system [Evidence IEA]; GO:0006808
+                     - regulation of nitrogen utilization [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phosphoenolpyruvate--protein phosphotransferase"
+                     /protein_id="WP_005925321.1"
+                     /db_xref="GeneID:75068783"
+                     /translation="MQVGTGKSVLNGIAIGKLKIYKKKDTAISTAPVADTAAELERFEA
+                     ARQKAIEQQTALYEKALAEAGEDIAEVFNIHAMMLDDDDFVDAIKEIINGQKMCAEYAV
+                     KTAGNNQAAVFSAMDDPYLQARSADVLDIAQAMLDILQGVDNASLQGTEPSILVAEDLA
+                     PSETVRMDKSLLLGFITREGSSNSHTAILARSMNIPALIQCKDIQDDWDGKMAVVDGYN
+                     ACVYVDPTPDLLKSLKKRQQEDQKKQALLQELKGKPNTTLDGKTINVFANIGGMGDVGA
+                     VQQNDAGGVGLFRTEFVYLNCKDFPTEDYQFEAYKQVLESLAPRKVVVRTCDIGADKTV
+                     DYMKLDHEDNPALGYRAIRICLTRKDFFKTQLRALLRASAYGNMSIMFPMITSLRELQD
+                     AKAVLEECRAELTAEGVKMGQNIEVGTMIETPAAVLIADELAAECDFFSIGTNDLTQYT
+                     CALDRQNAKLEPFFNPHHPAVLRAIKMTIEAGHRHGIWVGICGELGADTALTETFLRMG
+                     VDELSMNAKSILPVRKIIRSVDLSKPSEKA"
+ORIGIN
+        1 atgcaggtag gcaccggcaa aagcgtgctc aatggcatcg ccattggcaa gctgaagatc
+       61 tacaagaaaa aagataccgc gatttccacc gcccctgtgg cagatactgc cgcagagctg
+      121 gagcgttttg aagctgcccg ccagaaggcc attgagcagc agaccgccct gtatgaaaag
+      181 gcactggcag aggccggcga ggacatcgcc gaggtgttca acatccacgc catgatgctg
+      241 gatgatgacg actttgtgga cgccatcaag gagatcatca acggacagaa gatgtgcgcc
+      301 gagtacgccg tcaagaccgc cggcaacaat caggctgcgg tgttctctgc gatggacgac
+      361 ccgtatctgc aggcccgcag cgccgatgtg ctggacattg cgcaggccat gctggacatt
+      421 ctgcaggggg tggacaacgc ttccctgcag ggcaccgagc ccagcattct ggtagccgag
+      481 gatctggctc cctccgagac cgtgcgcatg gataaaagcc tgctgctggg cttcatcacc
+      541 cgcgagggca gctccaacag ccacaccgcc attctggcac gcagcatgaa catccccgcc
+      601 ctgatccagt gcaaggacat tcaggacgac tgggacggca agatggctgt ggtggacggc
+      661 tacaacgcct gtgtgtatgt ggaccccacc cccgacctgc tcaagagcct gaaaaagcgc
+      721 cagcaggagg accagaaaaa gcaggccctg ctgcaggagc tgaagggcaa gcccaacacc
+      781 acgctggacg gcaagaccat caacgtgttt gccaacatcg gcggcatggg cgacgtgggc
+      841 gctgtgcagc agaacgacgc cggcggcgtg ggtctgttcc gcaccgagtt cgtttacctg
+      901 aactgcaagg acttccccac cgaggactac cagttcgagg cttacaagca ggtgttggaa
+      961 agccttgcac cccgcaaggt ggtggtgcgc acctgtgata tcggcgcaga caagaccgtg
+     1021 gattatatga agctggatca cgaggataac cccgcgctgg gctaccgtgc catccgcatc
+     1081 tgcctgaccc gcaaggactt tttcaagacc cagctgcgtg ctctgctgcg tgcttccgcc
+     1141 tacggcaaca tgagcatcat gttccccatg atcaccagcc tgcgggagct gcaggacgcc
+     1201 aaggctgttc tggaagagtg tcgtgccgag ctgaccgccg agggcgtgaa gatggggcag
+     1261 aacattgaag taggcaccat gatcgagacc cccgccgccg tgctcatcgc ggacgagctg
+     1321 gccgccgagt gcgacttctt ctccatcggc accaacgacc tgacccagta cacctgtgca
+     1381 ctggaccgcc agaacgcaaa gctggagccc ttcttcaacc cccatcaccc cgccgtgctg
+     1441 cgcgccatca agatgaccat tgaagccggt caccgtcacg gcatctgggt gggcatctgc
+     1501 ggcgagctgg gcgccgacac cgccctgacc gagaccttcc tgcgcatggg cgtggacgag
+     1561 ctgtccatga acgccaagag catcctgccg gtgcgcaaga tcatccgcag cgtagacctg
+     1621 agcaagccct ctgagaaggc ttga
+//
