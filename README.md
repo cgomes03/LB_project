@@ -17,7 +17,6 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
    - *Genes*:
      - FAEPRAM212_RS11550
      - ptsP
-     - fprA
      - FAEPRAM212_03428
 2. **Data Collection and Analysis**:
    - Retrieve gene sequences from NCBI and other databases.
