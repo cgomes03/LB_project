@@ -17,7 +17,6 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
    - *Genes*:
      - FAEPRAM212_RS11550
      - ptsP
-     - fprA
      - FAEPRAM212_03428
 2. **Data Collection and Analysis**:
    - Retrieve gene sequences from NCBI and other databases.
@@ -30,4 +29,4 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
 
 ## Team Contributions
 
-Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. This code was developed by Catarina and Maria.
+Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. This code was developed by Catarina and Maria. The branch protein_analysis was developed by Muneeb.
