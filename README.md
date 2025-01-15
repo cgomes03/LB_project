@@ -29,4 +29,5 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
 
 ## Team Contributions
 
-Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. This code was developed by Catarina and Maria. The branch protein_analysis was developed by Muneeb.
+Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. The main branch was developed by Catarina and Maria. The branch protein_analysis was developed by Muneeb.
+
