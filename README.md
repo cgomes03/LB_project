@@ -29,7 +29,7 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
 5. **Graphic Analysis**
    -  Performs a graphical data analysis to intuitively visualize trends and patterns of the proteins.
 6. **Docker**
-## How to Use
+   - # How to Use
 To make the most of the content taught in this course, we have decided to create a Docker container to automate this work. Below, you can find instructions on how to use it.
 
 ### Prerequisites  
