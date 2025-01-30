@@ -27,7 +27,7 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
 4. **Regulation and Variant Analysis**:
    - Investigate regulatory interactions and gene variants.
 
----  
+
 ## How to Use
 To make the most of the content taught in this course, we have decided to create a Docker container to automate this work. Below, you can find instructions on how to use it.
 
@@ -40,8 +40,8 @@ To make the most of the content taught in this course, we have decided to create
 
 #### 1. Clone the Repository  
 ```sh
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/cgomes03/LB_project.git   
+cd LB_project
 ```
 
 ####  Build and Start the Container  
