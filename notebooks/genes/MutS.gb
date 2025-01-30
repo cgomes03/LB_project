@@ -1,0 +1,389 @@
+LOCUS       NZ_DS483503             8106 bp    DNA     linear   CON 10-APR-2024
+DEFINITION  Faecalibacterium prausnitzii M21/2 Scfld_02_24, whole genome shotgun
+            sequence.
+ACCESSION   NZ_DS483503
+VERSION     NZ_DS483503.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02299416
+            Assembly: GCF_000154385.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Faecalibacterium prausnitzii M21/2
+  ORGANISM  Faecalibacterium prausnitzii M21/2
+            Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+            Oscillospiraceae; Faecalibacterium.
+REFERENCE   1  (bases 1 to 8106)
+  AUTHORS   Sudarsanam,P., Ley,R., Guruge,J., Turnbaugh,P.J., Mahowald,M.,
+            Liep,D. and Gordon,J.
+  TITLE     Draft genome sequence of Faecalibacterium prausnitzii M21/2
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 8106)
+  AUTHORS   Sudarsanam,P., Ley,R., Guruge,J., Turnbaugh,P.J., Mahowald,M.,
+            Liep,D. and Gordon,J.
+  TITLE     Draft genome sequence of Faecalibacterium prausnitzii M21/2
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 8106)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Pepin,K.H.,
+            Johnson,M., Thiruvilangam,P., Bhonagiri,V., Nash,W.E., Mardis,E.R.
+            and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+REFERENCE   4  (bases 1 to 8106)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Pepin,K.H.,
+            Johnson,M., Thiruvilangam,P., Bhonagiri,V., Nash,W.E., Mardis,E.R.
+            and Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+REFERENCE   5  (bases 1 to 8106)
+  AUTHORS   Fulton,L., Clifton,S., Fulton,B., Xu,J., Minx,P., Mardis,E.R. and
+            Wilson,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-2007) Genome Sequencing Center, Washington
+            University School of Medicine, 4444 Forest Park, St. Louis, MO
+            63108, USA
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_000154385.1-RS_2024_04_10
+            Annotation Date                   :: 04/10/2024 16:06:07
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,027
+            CDSs (total)                      :: 2,940
+            Genes (coding)                    :: 2,896
+            CDSs (with protein)               :: 2,896
+            Genes (RNA)                       :: 87
+            rRNAs                             :: 5, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 5, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 66
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 44
+            CDSs (without protein)            :: 44
+            Pseudo Genes (ambiguous residues) :: 0 of 44
+            Pseudo Genes (frameshifted)       :: 10 of 44
+            Pseudo Genes (incomplete)         :: 35 of 44
+            Pseudo Genes (internal stop)      :: 5 of 44
+            Pseudo Genes (multiple problems)  :: 4 of 44
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            DS483503.1.
+            Faecalibacterium prausnitzii M21/2 (GenBank Accession Number for
+            16S rDNA gene: AY305307) is a member of the division Firmicutes. In
+            one comprehensive 16S rDNA sequence-based enumeration of the
+            colonic microbiota of three healthy adult humans, it represents, on
+            average, 3.804% of all 16S rDNA sequences and 7.490% of the
+            sequences in its division (Eckburg et. al. (2005)). The sequenced
+            strain was obtained from the laboratory of Prof. Harry Flint,
+            Rowett Research Institute, Aberdeen, Scotland, UK
+            (H.Flint@rowett.ac.uk).
+            We have collected 8.4X coverage in plasmid end reads and 454 reads.
+            We will be performing one round of automated sequence improvement
+            (pre-finishing).
+            Sequencing/Assembly: The genomic DNA was purified from liquid
+            culture derived from a single bacterial colony. A hybrid sequencing
+            strategy that utilized reads from both 454 GS-20 and ABI 3730xl
+            sequencers was devised and implemented to generate the draft genome
+            sequences. 454 reads were assembled using Newbler (454 Life
+            Sciences) into 454 de novo contigs. These de novo contigs were
+            converted in silico to 800 base paired reads ('superreads') with
+            400 base overlaps with neighboring superreads.  Finally, PCAP
+            (Huang, et al, Genome Research, 13:2164, (2003)) was used to
+            assemble the super-reads and the conventional 3730xl capillary
+            reads.
+            This sequenced strain is part of a comprehensive, sequence-based
+            survey of members of the normal human gut microbiota.  A joint
+            effort of the WU-GSC and the Center for Genome Sciences at
+            Washington University School of Medicine, the purpose of this
+            survey is to provide the general scientific community with a broad
+            view of the gene content of 100 representatives of the major
+            divisions represented in the intestine's microbial community. This
+            information should provide a frame of reference for analyzing
+            metagenomic studies of the human gut microbiome. Further details of
+            this effort are described in a white paper entitled 'ExtendingOur
+            View of Self: the Human Gut Microbiome Initiative (HGMI)'
+            (http://www.genome.gov/Pages/Research/Sequencing/SeqProposals/HGMIS
+            eq.pdf). These studies are supported by National Human Genome
+            Research Institute.
+            For answers to your questions regarding this assembly or project,
+            or any other GSC genome project, please visit our Genome Groups web
+            page (http://genome.wustl.edu/genome_group_index.cgi) and email the
+            designated contact person.
+            Faecalibacterium prausnitzii M21/2 (GenBank Accession Number for
+            16S rDNA gene: AY305307) is a member of the division Firmicutes. In
+            one comprehensive 16S rDNA sequence-based enumeration of the
+            colonic microbiota of three healthy adult humans, it represents, on
+            average, 3.804% of all 16S rDNA sequences and 7.490% of the
+            sequences in its division (Eckburg et. al. (2005)). The sequenced
+            strain was obtained from the laboratory of Prof. Harry Flint,
+            Rowett Research Institute, Aberdeen, Scotland, UK
+            (H.Flint@rowett.ac.uk).
+            We have collected 8.4X coverage in plasmid end reads and 454 reads.
+            We will be performing one round of automated sequence improvement
+            (pre-finishing).
+            Sequencing/Assembly: The genomic DNA was purified from liquid
+            culture derived from a single bacterial colony. A hybrid sequencing
+            strategy that utilized reads from both 454 GS-20 and ABI 3730xl
+            sequencers was devised and implemented to generate the draft genome
+            sequences. 454 reads were assembled using Newbler (454 Life
+            Sciences) into 454 de novo contigs. These de novo contigs were
+            converted in silico to 800 base paired reads ('superreads') with
+            400 base overlaps with neighboring superreads.  Finally, PCAP
+            (Huang, et al, Genome Research, 13:2164, (2003)) was used to
+            assemble the super-reads and the conventional 3730xl capillary
+            reads.
+            This sequenced strain is part of a comprehensive, sequence-based
+            survey of members of the normal human gut microbiota.  A joint
+            effort of the WU-GSC and the Center for Genome Sciences at
+            Washington University School of Medicine, the purpose of this
+            survey is to provide the general scientific community with a broad
+            view of the gene content of 100 representatives of the major
+            divisions represented in the intestine's microbial community. This
+            information should provide a frame of reference for analyzing
+            metagenomic studies of the human gut microbiome. Further details of
+            this effort are described in a white paper entitled 'ExtendingOur
+            View of Self: the Human Gut Microbiome Initiative (HGMI)'
+            (http://www.genome.gov/Pages/Research/Sequencing/SeqProposals/HGMIS
+            eq.pdf). These studies are supported by National Human Genome
+            Research Institute.
+            Coding sequences were predicted using GeneMark v3.3 and Glimmer2
+            v2.13. Intergenic regions not spanned by GeneMark and Glimmer2 were
+            blasted against NCBI's non-redundant (NR) database and predictions
+            generated based on protein alignments. RNA genes were determined
+            using tRNAscan-SE 1.23 or Rfam v8.0. Gene names are generated at
+            the contig level and may not necessarily reflect any known order or
+            orientation between contigs.These studies are supported by National
+            Human Genome Research Institute.
+            For answers to your questions regarding this assembly or project,
+            or any other GSC genome project, please visit our Genome Groups web
+            page (http://genome.wustl.edu/genome_group_index.cgi) and email the
+            designated contact person.
+            Annotation was added to the contigs in October 2007, and the CDS
+            comments were updated in January 2008.
+            This is a reference genome for the Human Microbiome Project. This
+            project is co-owned with the Human Microbiome Project DACC.
+            Product names were updated in August 2012.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+FEATURES             Location/Qualifiers
+     source          1..8106
+                     /organism="Faecalibacterium prausnitzii M21/2"
+                     /mol_type="genomic DNA"
+                     /strain="M21/2"
+                     /isolation_source="biological product [ENVO:02000043]"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:411485"
+     gene            1051..>1296
+                     /locus_tag="FAEPRAM212_RS16180"
+                     /pseudo=""
+                     /db_xref="GeneID:89458251"
+     CDS             1051..>1296
+                     /locus_tag="FAEPRAM212_RS16180"
+                     /inference="COORDINATES: protein motif:HMM:NF013765.4"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo=""
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /db_xref="GeneID:89458251"
+     gene            1753..8106
+                     /locus_tag="FAEPRAM212_RS16055"
+                     /old_locus_tag="FAEPRAM212_03428"
+                     /db_xref="GeneID:75069831"
+     CDS             1753..8106
+                     /locus_tag="FAEPRAM212_RS16055"
+                     /old_locus_tag="FAEPRAM212_03428"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008394579.1"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0140658 - ATP-dependent chromatin remodeler activity
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SNF2-related protein"
+                     /protein_id="WP_341271153.1"
+                     /db_xref="GeneID:75069831"
+                     /translation="MKDHAREKDTAAWLAHEYNGGDSKSLFVIRAGSPEGTELPWPKVQ
+                     RRIAQLIQEDNFLTEQDRLSEPQNRENRPYQVVVYHQTENGFDEKLEYPTLEEAEQAAQ
+                     GYVDGTMEPDGFAYDGAAVYDLQEQKYLRIYGEYPDKAAQEALSQDNGSKAHDLLAPAY
+                     RAGDTVYLENQEYQITELRENTVQLLPSGMRYPVYRAENRDDFEWLLKNDSRNSHITDY
+                     LSADLEKMDQDLREVLTAPNGLISPEEKETIDSWIHAGDGNTAIAGLLSELLSDRAESM
+                     EFVTGETADYFTSASGLEINILDDDENKKAAAYFSWNEVASVLRAVAIEEQRHPSEPEK
+                     ISEPSMPEPEKPAESEQTTFSTETVAVYPGDKNHLPYDVVIQTLRTNEPEPPTPAVEPE
+                     KTLDEVLDEHPVSIPVNGEWQTFPNARAAEEAAYGEYKENLRRTAENFRITDDHLGEGG
+                     AKAKFRANMNAINLLKELEFDNRQATPEEQEILSRYVGWGGLADAFDETKENWSSEFQE
+                     LYTTLSPEEYAAARGSTLNAHYTSPTVIKAIYEAVGRMGFETGNILEPSCGVGNFFGML
+                     PENMAGSKLYGVELDPISGRIAKQLYPKADITVAGFETTDRRDFYDLAVGNVPFGQYQV
+                     NDKAYNKLNFNIHNYFFAKALDQVRPGGVVAFVTSRYTMDAKDSTVRRYLAQRAELLGA
+                     IRLPNDAFKKNAGAEVVSDIIFLQKRDRPLDIVPEWTQTGILRVPAKSQDFVGEGGATE
+                     QASFSTQGGNEQEQSATTQDGFAINRYFLDHPEMVLGRQEPESTAHGMDYTVNPIEGLE
+                     LSDQLHDAVKYIRGTYQEAELPELGEGEAIDTSIPADPNVKNYSYTVVDGEVYYRENSR
+                     MVRPELNATAEDRVKGLVGLRDCVQELINLQMDEAVSDAEIKGKQAELNRLYDSFSAKY
+                     GLINDRGNRLAFSDDSSYYLLCALEVLDEDGKLERKADMFTKRTIQPHKAVTTVDTAAE
+                     ALAVSISEKACVDMAYMSDLTGKTGDELAAELQGVIFRVPGQVEKDGTPHYVTADEYLS
+                     GNVRRKLRQAQRAVQQDPSFAVNVEALTAAQPKDLDASEIEVRLGATWIDKEYIQQFMY
+                     ETFDTPFYLQRNIEVNYTPFTAEWQITGKNSVGSNNVAAYTTYGTSRANAYKILEDSLN
+                     LRDVRIYDTVEDADGKERRVLNAKETTLAAQKQQAIRDAFRDWIWKDPERRQALVRQYN
+                     EEMNSTRPREYDGSHITLGGMNPEISLREHQLNAVAHVLYGGNTLLAHEVGAGKTFEMV
+                     AAAMEAKRLGLCQKSLFVVPNHLTEQWASEFLRLYPSANILVTTKKDFETHNRKKFCAR
+                     IATGDYDAIIMGHSQFEKIPISRERQERLLYEQIDEITEGIAEVQASGGEHFTVKQLER
+                     TRKSLEARLEKLQAEERKDDVVTFEQLGVDRLFVDEAHNYKNLFLYTKMRNVAGLSTSD
+                     AQKSSDMFAKCRYMDELTGNRGVIFATGTPVSNSMTELYTMQRYLQYDRLQELNMTHFD
+                     CWASRFGETVTALELAPEGTGYRARTRFSKFFNLPELMNLFKEVADIKTADQLNLPTPE
+                     VEYHNIVAQPTEHQKEMVKVLSERASEVHKGSVDPSVDNMLKITSDGRKLGLDQRIINQ
+                     MLPDEPGTKVNQCVDNIMQIWRDGEPDKLTQLVFCDISTPQQAASSRKAAKALDNPTLH
+                     ALEDAIPLDKPEPAFTVYEDIRQKLIAQGMPADQIAFIHEANTEVRKKELFSKVRSGQV
+                     RVLLGSTQKMGAGTNVQDRLVALHDLDCPWRPGDLQQRKGRIERQGNQNPLVHVYRYVT
+                     EGTFDAYLWQTVENKQKFISQIMTSKSPVRSCDDVDETALSFAEIKALCAGDPRIKERM
+                     DLDVEVSRLKLMKADHQSKQYRLEDQLLQYFPQEIENNKGYIKGFEADLETLAAHPHPE
+                     DGFAGMEIRGDMLTDKENAGAALLDACKEVKDSEPVQIGSYRGFTMSVEFSAWKQEYTL
+                     LLKGQMTHRAILGADPRGNLTRIDNALSQMPQRLEAVQNQLNNLYQQQAAAKEEVGKPF
+                     LYEDDLRIKSARLVELDTLLNMDGKGRSAPETVLAKSTRPSVLDSLKRPVPPRSTEKKP
+                     KQHEEVR"
+ORIGIN
+        1 gtgagaacat cctctgcttt ttcttttgcc caggctgaca tcgaccatgt gttgcggctg
+       61 ggcgggaata cggaccgcca gcgggaacgc attgtggcac tctttgaaaa gcagaagtcc
+      121 accgccgaga tcgcagctta tctgcaaacc ctttataccg gcggtaatgg gatcggcagt
+      181 ctcacggcct ggtatgacaa ggacggtatc catctttccc acggcaaaac tgcccgttac
+      241 gacaagtccg ctcaggtcat ttcatgggag agcgccgccg agcgcatcgg ccagcttttg
+      301 caggacggcc agtttgccac caatgtggag cttgcagaag cggcgggcca tgaacgctct
+      361 ctccttgcgg aaaagttttg gaacctgtac cacgatttca gcgaggaagc cagagaagcc
+      421 gggtatctgt cctgcctatc cagcgtccgg ggaaccggat tcccggaaga aaccgcatgg
+      481 ctcaccgagc agttaaaccg cccggagttt cggcagaccc tttcggaaga atacgccgcc
+      541 ttctggacgg cctaccagca ggaccgggat ttgctgcggt tccactacca caagccgaga
+      601 gagatttggg aaaacctgca agacctgtcc ctgccccgca ctacatttac ctctccgatg
+      661 acggaagtgc ctgcggtcag gcagttcatc acagaggatg agatcgacgc agccatgacc
+      721 ggcggcagca gttttgaggg cggcaagggc cgtattttcg cctttttcca aaatccccat
+      781 acggataagg aaaaggtgga ctttctgaaa tccgagtacg gcattggtgg acattcccac
+      841 gccctgtccg gcgctggggg cagctgggaa gatcacgatg ggaaaggact tcgataccgg
+      901 aaagacggtt gccctgatgt gctgctcagt tgggaaaaag tttctaagcg gatttccggc
+      961 ctgattcaaa agggccgcta tctcaccgaa caggaacagg cacagtacga caaaatccag
+     1021 gcggaaaaga cactggcaga agaagatgcc atgcaagccc agcagccgga cacggagata
+     1081 tgggaataca acggggtcaa ggagcgtcac ccggatgacc tggtcctgta tcagatgggc
+     1141 gatttctttg agctgtacgg cgaggacgcc aaaaccgccg ctgcggagct ggagttccgt
+     1201 ctcacgaccc gcgccattcc aagcggaggc cgtgtggaaa tgtgtggttt tccggcaaac
+     1261 cggctggaac aggtggtgga acagctgcgg gatcaacatg atgtgaccat ttccgctgtg
+     1321 ccggagggcg gcaaagaacg ccaggaatat tccatgcccg ccattgacca tgaagcggaa
+     1381 cgggccatcg acgctcagga accggcaaaa ccgacaattc gggaattaca tgagcagtac
+     1441 aagcccattg tgcttgccgc agttatggaa gatgtgccat accgcaatgc ctgcggtcac
+     1501 agcgaccatg aaaacgccgt gattgagggc aacgccgcca tccgccgtgc tgttttaggt
+     1561 tccggcaaca tggaactgct ccgcctttat tccgacatac cggaatttcg ccagcggctg
+     1621 caccgggaaa tcattgacga gacctatccg cagctccatg aaatgctgcg tcctctctcc
+     1681 caggatgaca tggatgatgc catccgtgca tggaacggcg atattcagag caaacaagcc
+     1741 gttgtccgct acatgaaaga ccatgcgcgg gaaaaagata ctgccgcatg gctggcccac
+     1801 gagtataacg gcggtgacag caaaagcctg tttgtgatcc gggctggaag tcccgaaggg
+     1861 actgaactgc cctggcccaa ggtacagcgc cggattgccc agctgattca ggaggacaat
+     1921 ttcctgacgg aacaggatcg gctgtctgaa ccgcaaaatc gagagaaccg cccgtatcaa
+     1981 gtagtggttt atcaccagac ggaaaacggc tttgacgaaa agctcgaata tccaaccctg
+     2041 gaagaagcgg aacaagccgc gcagggctat gtggatggca caatggagcc ggacggcttt
+     2101 gcatacgacg gcgctgcggt ctatgacctg caagaacaaa aatatctccg catttatggg
+     2161 gagtacccgg ataaggctgc ccaggaagct ctcagccagg ataacggttc caaggcccat
+     2221 gacctgctgg ctccggctta ccgtgcaggc gatacggtat atctggaaaa tcaggagtat
+     2281 cagattaccg agttgcggga aaatacggtc cagctgttgc cctctggaat gcgttacccg
+     2341 gtctatcgcg cagagaaccg tgacgacttt gaatggcttt tgaaaaatga ttcccggaac
+     2401 agccacatca cagactacct ctctgctgac cttgaaaaga tggaccagga ccttcgggaa
+     2461 gtgctgactg ccccgaatgg gctgatttcc ccggaggaaa aagaaacgat tgattcctgg
+     2521 attcatgcag gggacggcaa taccgcgatt gcaggactgt tatccgaact gctctctgac
+     2581 cgtgcggaaa gcatggagtt tgtcaccggt gagacagcgg actatttcac atctgcgtct
+     2641 ggactggaaa tcaacatttt ggatgatgac gagaacaaaa aagcagcggc gtatttttca
+     2701 tggaatgaag ttgcgtctgt tctccgcgct gtggctatcg aggaacaaag gcatccgtcc
+     2761 gaaccggaaa aaatatcgga accgtccatg ccggaaccgg aaaaaccggc agaatcagaa
+     2821 caaacaacct tttccactga gacggtggcg gtctatccgg gagacaagaa ccatctgccc
+     2881 tatgatgtgg tcattcagac cctgcgaacc aatgagccgg agccgcccac gcctgctgtc
+     2941 gagccggaaa agactctgga tgaggtgctg gacgaacacc ccgtttccat tccggtcaat
+     3001 ggcgagtggc agactttccc caatgccagg gctgccgagg aagccgccta tggggagtac
+     3061 aaggagaacc tgcgccgcac cgccgagaat ttccgtatca ctgacgatca cctgggcgaa
+     3121 ggcggagcga aagccaagtt ccgtgccaat atgaatgcca tcaatttgct gaaagaactg
+     3181 gaatttgata accggcaggc aaccccggaa gaacaggaaa tcctttcccg gtatgtgggc
+     3241 tggggcggtc tggcggatgc ctttgatgaa acgaaagaaa attggtcgag tgagtttcag
+     3301 gagttataca cgaccctatc cccggaggaa tatgctgccg ccagaggttc caccctcaac
+     3361 gcccattaca ccagccctac ggtcatcaaa gcgatttacg aagctgtggg tcgcatggga
+     3421 tttgagactg gcaacatttt ggagccgtcc tgcggcgtgg gcaacttttt tgggatgctg
+     3481 ccggagaata tggccggaag caagctgtac ggtgtggaac tggaccccat cagtgggcgg
+     3541 attgccaaac agctttatcc aaaggccgac attaccgtgg caggctttga gaccaccgac
+     3601 aggcgggatt tctacgatct ggcggtagga aatgtaccgt tcggacagta tcaggtcaac
+     3661 gacaaagcct acaataaact aaactttaac attcacaact actttttcgc caaagcgctg
+     3721 gaccaggtgc gccctggcgg tgtggtggcc tttgtcacca gccgctacac gatggacgcc
+     3781 aaggattcca ccgtgcggcg gtatcttgcc cagcgcgccg agctgctggg agctatccgc
+     3841 ctgcccaatg atgctttcaa gaagaacgcc ggagccgagg tcgtatcaga cattatcttc
+     3901 ctccaaaagc gtgaccgccc gctggacatt gtaccggagt ggacgcagac cggtattctc
+     3961 agggttcccg caaagtctca agactttgtg ggagaaggag gagcgacgga gcaagcgagc
+     4021 ttttcgacgc aaggcggaaa cgagcaagag cagtccgcga cgacgcagga cggctttgcc
+     4081 atcaaccgat atttcctaga ccacccagaa atggtgctgg gccgacagga accggaaagc
+     4141 accgcccacg gcatggacta caccgtaaat cccattgagg gattggagct ttctgaccag
+     4201 ctgcacgatg ccgtgaaata cattcgcggc acctatcagg aggccgagct gccggagctg
+     4261 ggcgagggcg aagccatcga cacctccatc cccgctgacc ctaatgtaaa aaactattcc
+     4321 tacactgtgg tggacggcga ggtatattac cgggaaaaca gccgcatggt gcggcctgaa
+     4381 ctgaacgcca ccgccgaaga tcgcgtcaaa gggttggtag ggctgcggga ctgtgtgcag
+     4441 gaactcataa accttcagat ggacgaagcg gtttcggatg cggaaatcaa gggcaagcag
+     4501 gcggagctga accggctcta tgacagcttt tccgcaaaat acggcctgat caatgaccgg
+     4561 ggcaaccgtc tggccttttc ggatgattcc agctactacc tgctctgtgc gctggaagtg
+     4621 ctggatgagg acggcaagct ggagcgcaag gcggatatgt tcaccaaacg gaccatccag
+     4681 ccccacaagg ctgtgaccac tgtggatact gccgccgaag ctctggctgt ctccatttcg
+     4741 gaaaaagcct gtgtggatat ggcgtatatg tcagatctga ccggcaaaac tggagatgag
+     4801 ctggctgccg agctgcaagg cgtgatcttc cgtgtaccgg gacaggtgga gaaagacggc
+     4861 actccccatt atgtgaccgc cgacgaatat ctgtccggca atgtgcgccg caagctgcgt
+     4921 caggcacagc gggcagtaca gcaggaccct tcctttgcag taaatgtgga ggcacttacc
+     4981 gccgcccagc ccaaagacct ggatgcttcg gaaatcgagg tgcgcctggg tgcgacctgg
+     5041 atcgacaaag agtacatcca gcagtttatg tatgaaacct tcgacacgcc gttttatctc
+     5101 cagcgaaata tcgaggtcaa ctacaccccg ttcacagcgg aatggcagat caccgggaaa
+     5161 aactctgtcg gctccaacaa cgtggccgcc tataccacct acggaaccag ccgtgccaat
+     5221 gcctataaga ttctggagga ttccttaaac ctgcgggatg tccgtatcta cgacacggtg
+     5281 gaggacgcgg acggcaagga acgccgggtg ctgaatgcca aggagactac cctggccgcc
+     5341 caaaagcagc aggccatccg ggatgctttc cgcgattgga tatggaaaga cccggagcgc
+     5401 cgtcaggctc tggtgcgcca gtacaatgag gaaatgaact ccacccgccc ccgcgagtac
+     5461 gacggcagcc atatcacttt aggcggcatg aacccggaga tcagcctgcg ggaacaccag
+     5521 ctgaatgcgg ttgcccatgt gctgtacggc gggaacacgc tgctggcaca tgaagtaggc
+     5581 gcaggcaaga cctttgaaat ggtggccgcc gcaatggagg ccaagcggtt aggattgtgc
+     5641 cagaagtccc tctttgttgt gccgaaccat ttgactgagc agtgggcgtc ggagttttta
+     5701 cggctctatc cctctgccaa catccttgtt accacgaaaa aggactttga aacccacaac
+     5761 cgaaagaagt tttgcgcccg cattgccacc ggcgattatg acgctatcat catggggcat
+     5821 tcgcagtttg agaaaatccc tatcagccgg gagcgccagg aacggctcct ctatgagcag
+     5881 atcgacgaga ttaccgaggg aattgccgag gtacaggcca gcggcggcga gcattttacc
+     5941 gtcaagcagc tggaacgcac ccgaaaatct ctggaggcca gactggaaaa attgcaggct
+     6001 gaggagcgca aggacgatgt ggtgacattc gagcagttgg gcgtggaccg gctgtttgtg
+     6061 gacgaggcac acaattacaa gaacctgttt ttatacacca agatgcggaa tgtggcgggc
+     6121 ttatccacat cggacgcgca gaaatcctcc gatatgttcg ccaagtgccg ttatatggac
+     6181 gaactgaccg gaaaccgtgg tgtgattttt gccaccggaa ccccggtcag caattccatg
+     6241 accgagcttt acaccatgca gcggtatctc cagtatgacc gtctgcaaga attgaatatg
+     6301 acccacttcg actgctgggc gtcgcgcttt ggtgagaccg ttaccgcatt ggagctggcc
+     6361 ccagagggaa ccggctaccg ggcaaggacg cggttttcca agtttttcaa tctcccggag
+     6421 ctgatgaacc tgttcaaaga ggttgcggac atcaagaccg ccgaccaact gaacctgccg
+     6481 accccggagg tggaatacca caatatcgtg gcccagccca cggaacacca aaaggaaatg
+     6541 gtaaaagtcc tctccgagcg cgcatccgaa gtacacaaag gcagtgtgga cccgtctgtg
+     6601 gacaatatgc tcaagattac atcggatggc cgcaagctgg ggctggacca gcggatcatc
+     6661 aatcaaatgc tgccggacga acccggcacc aaagtcaatc agtgtgtgga caatatcatg
+     6721 cagatctggc gggacggtga accggacaag ctgacccagc tggtattctg cgatatttcc
+     6781 acgccccagc aggcggcttc ttcccggaaa gcggcgaagg cgctggataa tcccaccctt
+     6841 catgcgctgg aagatgccat accgttagac aagccggagc ctgcctttac cgtctatgag
+     6901 gacatccggc aaaagctcat tgcccagggg atgcctgccg accagatcgc tttcatccac
+     6961 gaggccaaca cggaggtgcg gaaaaaggaa ctgttttcca aagtccgttc cgggcaggtg
+     7021 cgggtcctct tgggtagcac ccaaaagatg ggggccggaa ccaatgtgca ggaccgcctt
+     7081 gtggcgcttc acgacctgga ctgcccgtgg cggcccggag atttacagca gagaaaaggc
+     7141 aggattgagc gtcagggcaa ccagaatccc cttgtccatg tgtaccgcta tgtgacggag
+     7201 gggacttttg acgcttattt gtggcagacg gtggaaaaca aacagaaatt catcagccag
+     7261 atcatgacct ctaaatcgcc ggtccgttcc tgtgatgatg tggacgaaac ggcattgtcc
+     7321 tttgccgaga tcaaggccct gtgtgccgga gacccccgta tcaaggagcg catggatttg
+     7381 gacgtggagg tttcccgtct gaagctgatg aaagccgacc accagagcaa gcagtaccgg
+     7441 ctggaggacc agctgctcca atacttcccg caggaaatcg aaaacaacaa gggatatatc
+     7501 aagggttttg aggcagacct ggagaccctg gccgcccatc cgcacccgga ggacggtttt
+     7561 gccgggatgg agattcgggg cgatatgctg acggataaag agaacgccgg agctgccctg
+     7621 ctggatgcct gcaaggaggt caaagattcc gaaccggtgc agattggaag ttatcgggga
+     7681 tttactatgt ccgtagagtt ttcagcgtgg aaacaggaat atacgctcct gctgaaagga
+     7741 caaatgaccc atcgggcgat tcttggcgca gacccgcgcg gaaatctcac ccgtatcgac
+     7801 aatgcgctct cacagatgcc ccagcgtttg gaggctgtcc aaaatcagct gaacaacctt
+     7861 taccagcagc aggccgccgc caaagaggaa gtgggcaagc cgttcctgta tgaagatgat
+     7921 ttgcgtatca agtctgcccg attggtggag ctggacaccc tgctgaatat ggacggcaaa
+     7981 ggccgttctg ctccggaaac cgttcttgcc aagagtacgc ggccttcagt actggacagc
+     8041 ctgaaacgcc cggtgccgcc ccgcagtacc gaaaagaaac ccaaacagca tgaggaggtg
+     8101 cgataa
+//
