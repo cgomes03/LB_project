@@ -26,6 +26,84 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
    - Perform alignments and build phylogenetic trees to identify conserved regions.
 4. **Regulation and Variant Analysis**:
    - Investigate regulatory interactions and gene variants.
+Aqui está um **README.md** completo e bem estruturado em inglês:  
+
+---  
+This project provides a **Jupyter Notebook** environment using **Docker** and **Docker Compose**.  
+
+## 📦 Prerequisites  
+
+- [Docker](https://www.docker.com/get-started) installed  
+- [Docker Compose](https://docs.docker.com/compose/install/) installed  
+
+## 🚀 How to Run  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+### 2️⃣ Build and Start the Container  
+```sh
+docker-compose up -d
+```
+
+### 3️⃣ Access Jupyter Notebook  
+Once the container is running, open your browser and go to:  
+👉 **http://127.0.0.1:8888**  
+
+A token will be displayed in the terminal. Copy and paste it into the browser to access Jupyter Notebook.
+
+## 🛑 How to Stop the Container  
+To stop and remove the container, run:  
+```sh
+docker-compose down
+```
+
+## 📂 Persistent Data  
+All files and notebooks inside the project folder will be saved, as the directory is mapped as a **volume** in the container.
+
+## 🛠️ Compatibility (Windows, macOS, Linux)  
+This project works on any OS with **Docker** and **Docker Compose** installed.
+
+### ⚠️ Notes for Windows  
+- If using **PowerShell**, some commands may need the `./` prefix:
+  ```sh
+  ./docker-compose up -d
+  ```
+- If running the project inside **OneDrive**, you may face permission issues. It's recommended to move it to `C:\Projects`.
+
+### ⚠️ Notes for macOS/Linux  
+- If you encounter permission errors, try running:
+  ```sh
+  sudo docker-compose up -d
+  ```
+
+## 🛠️ Customizing the Jupyter Notebook Configuration  
+If you want to disable the token authentication or set a password, edit the `CMD` command in **Dockerfile** or **docker-compose.yml**.
+
+For example, to remove token authentication, update **docker-compose.yml**:
+```yaml
+command: ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
+```
+This will allow direct access to Jupyter Notebook without a token.
+
+## 🐳 Useful Docker Commands  
+Check running containers:  
+```sh
+docker ps
+```
+Stop a specific container:  
+```sh
+docker stop <container_id>
+```
+Remove all stopped containers:  
+```sh
+docker system prune -f
+```
+
+---
 
 ## Team Contributions
 
