@@ -26,8 +26,9 @@ This project focuses on the bioinformatic analysis of genes from microorganisms 
    - Perform alignments and build phylogenetic trees to identify conserved regions.
 4. **Regulation and Variant Analysis**:
    - Investigate regulatory interactions and gene variants.
-
-
+5. **Graphic Analysis**
+   -  Performs a graphical data analysis to intuitively visualize trends and patterns of the proteins.
+6. **Docker**
 ## How to Use
 To make the most of the content taught in this course, we have decided to create a Docker container to automate this work. Below, you can find instructions on how to use it.
 
@@ -84,5 +85,4 @@ This project works on any OS with **Docker** and **Docker Compose** installed.
 
 ## Team Contributions
 
-Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. The main branch was developed by Catarina and Maria. The branch protein_analysis was developed by Muneeb.
-
+Each group member is responsible for analyzing one gene. The portfolio includes a credits section detailing individual contributions. The main branch was developed by Catarina and Maria. The graphic analysis was developed by Muneeb. 
