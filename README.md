@@ -1,4 +1,4 @@
-# Bioinformatics Project 2024/2025
+# Bioinformatics Lab Project 2024/2025
 
 ## Overview
 
